@@ -1,12 +1,10 @@
-// const KEY = '34545827-e90c0f0f1a816b36797418de9';
 
-// export { KEY };
 import axios from 'axios';
 
 
 axios.defaults.baseURL = 'https://pixabay.com/api/';
 // axios.defaults.headers.common['Authorization'] = 'Client-ID 28194821-49041d995ecd04735d9e20d11';
-const API_KEY = '28194821-49041d995ecd04735d9e20d11';
+const API_KEY = '34545827-e90c0f0f1a816b36797418de9';
 
 export class PixabayAPI {
     #page = 1;
